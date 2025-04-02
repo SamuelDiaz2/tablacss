@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla css</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="menu">
+        <h1><center>Tabla de css</center></h1>
+        <ul> <!--Insertar lista con cada sección-->
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#java">JAVASCRIPT</a></li>
+            <li><a href="#tabla">Tabla de atributos</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <section id="css">
+        <h2>CSS</h2>
+
+        <p>
+            Se trata de una tecnología utilizada para dotar de cualidades visuales y estéticas a una página web. Si nunca has tocado esta materia,
+             comprobarás que se trata de una forma analítica, lógica y prácticamente matemática de crear páginas web, pero gracias a ella podemos 
+             simplificar la creación de páginas y conseguir exactamente lo que buscamos.
+        </p>
+
+        <a href="https://lenguajecss.com/css/introduccion/que-es-css/"><img src="imagenes/css.jpg" alt="CSS"></a>
+
+        <h2>Importancia</h2>
+
+        <p>
+            La idea de CSS es la de utilizar el concepto de separación de presentación y contenido. Este concepto se basa en que, 
+            como programadores, lo ideal es separar claramente el código que escribimos. ¿Por qué? Porque con el tiempo, esto hará que
+             el código sea más fácil de modificar y mantener.
+        </p>
+
+    </section>
+
+    <hr>
+
+    <section id="java">
+        <h2>JAVASCRIPT</h2>
+
+        <p>
+            Javascript es un lenguaje de programación, o lo que es lo mismo, un mecanismo con el que podemos decirle a nuestro navegador
+            que tareas debe realizar, en que orden y cuantas veces.
+            Es muy probable que al principio nos parezca que es mucho más complicado hacerlo con Javascript, y que por lo tanto no merece la pena. Sin embargo, con el tiempo veremos que Javascript nos ofrece una mayor flexibilidad
+            y un abanico de posibilidades más grande, y que bien usadas, pueden ahorrarnos bastante tiempo.
+        </p>
+
+        <a href="https://lenguajejs.com/javascript/introduccion/que-es-javascript/"><img src="imagenes/javascript.avif" alt="javascript"></a>
+    </section>
+
+    <section id="tabla">
+        <h2>Tabla de atributos CSS</h2>
+
+        <table border="2.5">
+            <tr>
+                <th>Nombre del atributos</th>
+                <th>Descripción</th>
+                <th>Valores posibles</th>
+                <th>Ejemplos de uso</th>
+                <th>Imagen Representativa</th>
+                <th>Fuente de información</th>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>Una tipografía que permite indicar el tamaño que tendrá la fuente que vamos a utilizar.</td>
+                <td>xx-small | x-small | small | medium | large | x-large | xx-large</td>
+                <td>.container {
+                    font-size: 20px;
+                  }
+                </td>
+                <td><img src="imagenes/fontsize.png" alt="font-size"></td>
+                <td><a href="https://lenguajecss.com/css/fuentes-y-tipografias/tipografias/#la-propiedad-font-size/">Lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>border-radius</td>
+                <td>Para indicar este radio</td>
+                <td>N = Cualquier número</td>
+                <td>.element {
+                    border-radius: 25px;
+                }
+                </td>
+                <td><img src="imagenes/border radiius.jpg" alt="border-radius"></td>
+                <td><a href="https://lenguajecss.com/css/bordes/border-radius/#la-propiedad-border-radius">Lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>display</td>
+                <td>Cambia el tipo o forma de representación del elemento.</td>
+                <td>none; inline; block; inline-block; flex; inline-flex; grid; inline-grid; list-item; table; table-cell; table-row; contents</td>
+                <td>div {
+                    display: inline;
+                  }
+                </td>
+                <td><img src="imagenes/display.jpg" alt="display"></td>
+                <td><a href="https://lenguajecss.com/css/layout/display-css/">Lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>flexbox (display: flex;)</td>
+                <td>Es un sistema de elementos flexibles que llega con la
+                    idea de olvidar estos mecanismos y acostumbrarnos a una mecánica más potente, limpia y personalizable
+                </td>
+                <td>flex; inline-flex</td>
+                <td>.container {
+                    display: flex;
+                    flex-direction: column;
+                  }
+                </td>
+                <td><img src="imagenes/flexbox.png" alt="flexbox"></td>
+                <td><a href="https://lenguajecss.com/css/flex/que-es-flex/">lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>position</td>
+                <td>La propiedad position es una propiedad CSS que se puede utilizar para modificar la posición donde aparecerá un elemento.</td>
+                <td>static; relative; absolute; fixe; sticky</td>
+                <td>div {
+                    position: relative;
+                  }
+                </td>
+                <td><img src="imagenes/position.jpg" alt="position"></td>
+                <td><a href="https://lenguajecss.com/css/posicionamiento/position/">Lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>box-shadow</td>
+                <td>Se denominan sombras sobre cajas a las sombras en CSS que se pueden crear en una etiqueta o elemento HTML.</td>
+                <td>n = Cualquier número</td>
+                <td>.element {
+                    box-shadow: 5px 5px;
+                  }
+                  </td>
+                <td><img src="imagenes/box shadow.jpg" alt="box shadow"></td>
+                <td><a href="https://lenguajecss.com/css/sombras/box-shadow/">lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>overflow</td>
+                <td>si tenemos suficiente contenido en un elemento y hemos forzado el tamaño de ancho y/o alto del elemento, se va a producir el caso en el que su contenido no tiene suficiente espacio, por lo que se producirá un desbordamiento CSS
+                    para controlar estos casos, tenemos a nuestra disposición la propiedad overflow en CSS</td>
+                <td>visible | hidden | scroll | auto</td>
+                <td>.element {
+                    overflow: hidden;
+                }
+                </td>
+                <td><img src="imagenes/overflow.png" alt="overflow"></td>
+                <td><a href="https://lenguajecss.com/css/modelo-de-cajas/overflow/">lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>z-index</td>
+                <td>es una forma de indicar una distancia en el eje Z, es decir, en el eje de profundidad.</td>
+                <td>auto | N = cualquier numero</td>
+                <td>.element{
+                    z-index: 5px;
+                }
+                </td>
+                <td><img src="imagenes/z-index.png" alt="z-index"></td>
+                <td><a href="https://lenguajecss.com/css/posicionamiento/position/#profundidad-niveles">lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>opacity</td>
+                <td>Una opción interesante y relacionada podría ser la posibilidad de utilizar la propiedad opacity, especialmente útil si se utiliza junto a transiciones o animaciones.</td>
+                <td>N = del 0 al 1</td>
+                <td>.item-2 {
+                    opacity: 50%;
+                  }
+                </td>
+                <td><img src="imagenes/opacity.png" alt="opacity"></td>
+                <td><a href="https://lenguajecss.com/css/imagenes-y-fondos/visibilidad/">lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>margin y padding</td>
+                <td>El tamaño de dichos márgenes se puede alterar en conjunto o de forma específica a cada una de las zonas del elemento.
+                    Al igual que con los márgenes, los padding tienen varias propiedades para indicar el relleno de cada zona.
+                </td>
+                <td>N = cualquier valor</td>
+                <td>.examples {
+                    margin: 15px;
+                    padding: 15px;
+                }
+                </td>
+                <td><img src="imagenes/margin.jpg" alt="margin"></td>
+                <td><a href="https://lenguajecss.com/css/modelo-de-cajas/margenes-y-rellenos/">lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>text-shadow</td>
+                <td>rear sombras en textos mediante CSS es muy útil, 
+                    puesto que es una forma interesante de suavizar y hacer más legibles los textos
+                </td>
+                <td>none O N = cualquier valor</td>
+                <td>.text {
+                    text-shadow: 4px 4px;
+                }
+                </td>
+                <td><img src="imagenes/text-shadow.jpeg" alt="text-shadow"></td>
+                <td><a href="https://lenguajecss.com/css/sombras/text-shadow/">lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>grayscale</td>
+                <td>Escala de blanco y negro</td>
+                <td>0% | 100%</td>
+                <td>img:hover {
+                    filter: grayscale(0%);
+                }
+                </td>
+                <td><img src="imagenes/grayscale.jpg" alt="grayscale"></td>
+                <td><a href="https://lenguajecss.com/css/efectos/filtros-css/">lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>outline-width</td>
+                <td>Tamaño de los bordes. Tamaño predefinido o específico.</td>
+                <td>N = cualquier valor</td>
+                <td>.element {
+                    outline-width: 5px;
+                    outline-style: solid;
+                    outline-color: red;
+                  }                  
+                </td>
+                <td><img src="imagenes/outline.png" alt="outline"></td>
+                <td><a href="https://lenguajecss.com/css/interacciones/contornos/">lenguajecss.com</a></td>
+            </tr>
+            <tr>
+                <td>scrollbar-color</td>
+                <td>Le da color a la barra de desplazamiento. Primer parámetro a la barra y segundo al fondo.</td>
+                <td>color</td>
+                <td>.element-1 {
+                    scrollbar-color: deeppink indigo;
+                  }
+                </td>
+                <td><img src="imagenes/scrollbar.png" alt="scrollbar-color"></td>
+                <td><a href="https://lenguajecss.com/css/interacciones/scrollbars/">lenguajecss.com</a></td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>

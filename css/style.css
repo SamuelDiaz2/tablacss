@@ -1,0 +1,104 @@
+body{
+    background-color: #ffffff;
+    margin: 50px;
+}
+
+hr{
+    border-color: black;
+}
+
+.menu ul {
+    text-align: center;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 1em 2em; /* Ajuste del padding */
+    background-color: #378ddd;
+    text-decoration: none;
+    color: #191C26;
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.menu a:hover {
+    background-color: #25629b;
+}
+
+#css {
+    background-color: #378ddd;
+}
+
+#css img{
+    margin: 5px;
+    height: 200px;
+    width: 400px;
+}
+
+#java {
+    background-color: #fbd601;
+}
+
+#java img{
+    height: 300px;
+    width: 600px;
+}
+
+#tabla{
+    background-color: #2fafc5;
+    border-collapse: collapse;
+}
+
+#tabla table{
+    border: 40px;
+    border-color: #191C26;
+    border-radius: 100% 100% 100% 100%;
+}
+
+th{
+    background-color: aliceblue;
+}
+
+td{
+    background-color: rgb(135, 199, 255);
+}
+
+#tabla img{
+    height: 100px;
+    width: 250px
+}
+
+td,th{
+    padding: 10px;
+}
+
+#tabla img:hover {
+    object-view-box: inset(15% 15% 15% 15%);
+}
+
+a{
+    color: blueviolet;
+}
+
+a:hover{
+    color: yellow;
+}
+
+td:hover{
+    background-color: #378ddd;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-shadow:
+      -1px -1px 3px #999,
+      0 0 1px darkred,
+      1px 1px 1px rgb(0, 0, 0),
+      2px 2px 1px #555,
+      3px 3px 1px #222,
+      4px 4px 1px #000;
+  }
